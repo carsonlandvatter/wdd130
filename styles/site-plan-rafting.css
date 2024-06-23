@@ -1,8 +1,8 @@
 @import url('https://fonts.google.com/share?selection.family=Asul:wght@400;700');
 body {
     font-family: var(--paragraph-font);
-    max-width: 960 px;
-    padding: 20 px;
+    max-width: 960px;
+    padding: 20px;
 }
 :root {
     --primary-color: #BEC5AD;
@@ -24,7 +24,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 header {
     padding: 20px;
-    background-color: car(--accent1-color);
+    background-color: var(--accent1-color);
 }
 p {
     padding: 25px;
