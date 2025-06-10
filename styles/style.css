@@ -1,5 +1,5 @@
 nav {
-    background-color: darkblue;
+    background-color: #0e172d;
     padding: 10px;
 }
 
@@ -10,18 +10,43 @@ nav a {
 }
 
 h1 {
-    color: darkblue;
+    color: #0e172d;
 }
 
-img {
-    width: 150px;
+main img {
     height: auto;
     border: 1px solid black;
     padding: 2px;
     box-shadow: 0 0 30px gray;
 }
 
+#utah-image {
+    width: 200px;
+    height: auto;
+    border: 1px solid;
+}
+
 p {
+    padding: 0;
+}
+
+main {
+    max-width: 840px;
+}
+
+aside {
+    width: 30rem;
+    margin: 20px;
+    border: 3px solid #0e172d;
+    text-align: center;
     padding: 10px;
+    background-color: #0e172d36;
+    color: #0e172d;
+}
+
+footer {
+    margin-top: 2rem;
+    border-top: 1px dotted #0e172d;
+    text-align: center;
 }
 
