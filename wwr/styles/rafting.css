@@ -208,6 +208,10 @@ section .headings {
     margin: 20px;
 }
 
+iframe {
+    width: 600px;
+    height: 450px;
+}
 #form {
     background-color: var(--secondary-color);
     width: 840px;
@@ -266,14 +270,14 @@ form {
     margin-bottom: 0;
 }
 
-textarea, input {
+textarea, input, #message-purpose p {
     padding: 5px;
     margin: 10px 0 10px 0;
     font-family: var(--body-font);
     font-size: medium;
 }
 
-#submit {
+button {
     padding: 5px 40px;
     font-family: var(--body-font);
     border-radius: 40px;
